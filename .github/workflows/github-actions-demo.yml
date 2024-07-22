@@ -1,0 +1,23 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [feature/SivakumarBalakrishnan-CBATest]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+      - name: Build with Maven
+        run: mvn clean test
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-report
+          path: target/petApiTests.html
