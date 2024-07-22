@@ -5,6 +5,7 @@
 1. I have configured this to run in Github actions against the feature branch for each check in
 2. Please look in https://github.com/ShivBala/commtest/actions
 3. Report can be found as an attached artifact against the jobs. I have used ExtentReports for reporting.
+4. Please find a sample job and attached artifact here https://github.com/ShivBala/commtest/actions/runs/10033573249#artifacts
 
 ### To edit and run the tests locally
 
