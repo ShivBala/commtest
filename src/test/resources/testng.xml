@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PetStore API Tests">
+    <listeners>
+    </listeners>
+    <test name="PetStore API Tests">
+        <classes>
+            <class name="com.combktests.petstore.tests.SamplePetApiTests"/>
+        </classes>
+    </test>
+</suite>

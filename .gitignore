@@ -1,0 +1,16 @@
+# Build artifacts
+target/
+build/
+dist/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+
+# Local history
+.localhistory/
+
+
+
