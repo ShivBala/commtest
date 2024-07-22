@@ -1,5 +1,11 @@
 # commtest
 
+### In CI
+
+1. I have configured this to run in Github actions against the feature branch for each check in
+2. Please look in https://github.com/ShivBala/commtest/actions
+3. Report can be found as an attached artifact against the jobs. I have used ExtentReports for reporting.
+
 ### To edit and run the tests locally
 
 1. install jdk 11 and maven 
